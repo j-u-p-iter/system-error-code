@@ -1,6 +1,6 @@
 {
   "name": "@j.u.p.iter/system-error-code",
-  "version": "0.0.1",
+  "version": "0.0.0-semantically-released",
   "main": "dist/lib/system-error-code.cjs.js",
   "module": "dist/lib/system-error-code.esm.js",
   "umd:main": "dist/lib/system-error-code.umd.min.js",
