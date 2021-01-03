@@ -1,0 +1,23 @@
+{
+  "name": "@j.u.p.iter/system-error-code",
+  "version": "0.0.1",
+  "main": "dist/lib/system-error-code.cjs.js",
+  "module": "dist/lib/system-error-code.esm.js",
+  "umd:main": "dist/lib/system-error-code.umd.min.js",
+  "repository": "git@github.com:j-u-p-iter/system-error-code.git",
+  "author": "Leontyev Kirill (j.u.p.iter) <pn79122821224@gmail.com> (http://j-u-p-iter.pro/)",
+  "license": "MIT",
+  "scripts": {
+    "commit": "jupiter-scripts precommit --allowJs",
+    "build": "jupiter-scripts build --bundle",
+    "start": "yarn run build --watch",
+    "lint": "jupiter-scripts lint --format codeFrame",
+    "lint:fix": "yarn run lint --fix",
+    "test": "jupiter-scripts test",
+    "predocs": "yarn run build",
+    "docs": "jupiter-scripts docs > ./docs/API.md"
+  },  
+  "devDependencies": {
+    "@j.u.p.iter/jupiter-scripts": "^1.17.0"
+  }
+}
